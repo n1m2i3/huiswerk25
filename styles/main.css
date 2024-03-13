@@ -1,11 +1,9 @@
-/* Standaardmarge en vulling resetten */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Achtergrondkleur instellen */
 body {
   font-family: Arial, sans-serif;
   background-color: #a59a9a;
