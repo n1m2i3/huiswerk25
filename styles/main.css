@@ -1,0 +1,106 @@
+/* Standaardmarge en vulling resetten */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Achtergrondkleur instellen */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a59a9a;
+}
+
+/* Kopstijlen */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Stijlen voor hoofdinhoud */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.flex-item {
+  width: 48%;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-item-drie {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+h2 {
+  padding: 20px;
+  color: #333;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+img {
+  max-width: 100%;
+  padding: 15px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+/* Voetstijlen */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Mediaqueries voor responsiviteit */
+@media screen and (max-width: 768px) {
+  main {
+    padding: 10px;
+  }
+
+  .flex-item {
+    width: 100%;
+  }
+}
